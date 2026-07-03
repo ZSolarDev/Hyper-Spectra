@@ -1,0 +1,21 @@
+-cp source
+-main Main
+
+# libs
+-lib hxcpp
+-lib haxe3ds
+-D HAXE3DS
+-lib citroengine
+-D CITROENGINE
+
+# defines
+-D IS_CIA
+-D loop_unroll_max_cost=0
+-D nx
+-D HAXE_OUTPUT_PART=HAXE3DS
+-D HXCPP_SINGLE_THREADED_APP
+-D HXCPP_STACK_TRACE
+-D HXCPP_STACK_LINE
+-D static_link
+-D message.reporting=pretty
+-cpp export

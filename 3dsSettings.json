@@ -1,0 +1,25 @@
+{
+	"settings": {
+		"linkOptions": {
+			"ip": "",
+			"openEmuIfTransferFailed": false,
+			"link3dsToConsole": true
+		},
+		"libraries": [
+			"haxe3ds",
+            "citroEngine"
+		],
+		"defines": [],
+		"compileAsCIA": true,
+		"optimizations": {
+			"o2Flag": false,
+			"gFlag": false
+		},
+		"deleteTempFiles": false
+	},
+	"metadata": {
+		"description": "A rhythm game for the Nintendo 3DS.",
+		"title": "Hyper Spectra",
+		"author": "ZSolarDev"
+	}
+}
