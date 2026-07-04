@@ -1,0 +1,2 @@
+- [ ] NDSP Initialization error handling
+- [ ] Video optimization and seeking
